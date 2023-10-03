@@ -1,45 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@100;200;400;600;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@100;200;400;600;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/cardapio.css">
+    <link rel="stylesheet" href="./styles/servicos.css">
     <title>Tony pizzaria</title>
 </head>
+
 <body>
     <header>
-    <div class="logo-container">
-        <img src="./img/Vector. SVG.svg" alt="logo tonny pizzaria">
-        <p>Tony pizzaria</p>
-    </div>
-    <nav class="menu">
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Cardápio</a>
-            </li>
-            <li>
-                <a href="#">Serviços</a>
-            </li>
-            <li>
-                <a href="#">Contato</a>
-            </li>
+        <div class="logo-container">
+            <img src="./img/Vector. SVG.svg" alt="logo tonny pizzaria">
+            <p>Tony pizzaria</p>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Cardápio</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
             </ul>
-    </nav>
-    <div class="botao-container">
-        <div class="botao">
-            <img src="./img/usuario.svg" alt="ícone de usuario">
-            <p>LOGIN</p>
-    </div>
-    </header>  
-    <main></main>
+        </nav>
+        <div class="botao-container">
+            <div class="botao">
+                <img src="./img/usuario.svg" alt="ícone de usuario">
+                <p>LOGIN</p>
+            </div>
+    </header>
+    <main>
+        <section class="home">
+            <div class="conteudo-container">
+                <div class="texto">
+                    <h2> Não é apenas uma <span class="texto-laranja"> Pizza</span>, é uma experiência!</h2>
+                </div>
+                <div>
+                    <img src="./img/pizza.png" alt="pizza">
+                </div>
+            </div>
+            <div class="destaque-container">
+                <div class="destaque">
+                    <img class="add" src="./img/add.svg" alt="">
+                    <img src="./img/pizza1.png" alt="">
+                    <div class="info">
+                        <div class="info-texto">
+                            Pizza de calabresa com queijo
+                        </div>
+                        <div class="info-preco">
+                            R$16,00
+                        </div>
+                    </div>
+                </div>
+                <div class="destaque">
+                    <img class="add" src="./img/add.svg" alt="">
+                    <img src="./img/pizza 2.png" alt="">
+                    <div class="info">
+                        <div class="info-texto">
+                            Pizza portuguesa
+                        </div>
+                        <div class="info-preco">
+                            R$32,00
+                        </div>
+                    </div>
+                </div>
+                <div class="destaque">
+                    <img class="add" src="./img/add.svg" alt="">
+                    <img src="./img/pizza 3.png" alt="">
+                    <div class="info">
+                        <div class="info-texto">
+                            Pizza de marguerita
+                        </div>
+                        <div class="info-preco">
+                            R$40,00
+                        </div>
+                    </div>
+                </div>
+                <div class="destaque">
+                    <img class="add" src="./img/add.svg" alt="">
+                    <img src="./img/pizza 4.png" alt="">
+                    <div class="info">
+                        <div class="info-texto">
+                            Pizza da casa
+                        </div>
+                        <div class="info-preco">
+                            R$39,00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="cardapio"></section>
+        <section class="servicos"></section>
+    </main>
     <footer></footer>
-    
+
 </body>
+
 </html>
