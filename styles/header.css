@@ -1,7 +1,7 @@
 header{
     position: absolute;
     height: 60px;
-    top: 60px;
+    top:60px;
     left: 80px;
     right: 80px;
     display: flex;
@@ -23,19 +23,19 @@ header .menu ul{
     gap: 48px;
     align-items: center;
     font-size: 1rem;
-    
 }
+
 header .menu ul a{
     padding: 2px 8px 2px 8px;
-    transition:  .5s;
+    transition: .5s;
 }
 
 header .menu ul a:hover{
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
     box-shadow: 0px 4px 8px var(--cor-sombra);
-
 }
+
 header .botao-container{
     height: 60px;
     width: 150px;
@@ -43,6 +43,7 @@ header .botao-container{
     justify-content: flex-end;
     align-items: center;
 }
+
 header .botao{
     height: 48px;
     width: 120px;
@@ -56,5 +57,4 @@ header .botao{
     gap: 8px;
     color: var(--cor-primaria);
     font-weight: 600;
-
 }

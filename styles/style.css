@@ -1,31 +1,56 @@
-:root{
-    --cor-primaria:#F07807;
+:root {
+    --cor-primaria: #F07807;
     --cor-secundaria: #FEF2E7;
-    --cor-branco:#fff;
-    --cor-preto:#000;
+    --cor-branco: #fff;
+    --cor-preto: #000;
     --cor-sombra: #0008;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: var(--cor-secundaria);
     font-family: 'Poppins', sans-serif;
 }
 
-
-main{
-    
-    background-color: var(--cor-secundaria);
-    
+.link-home {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    left: 50%;
+    bottom: 0;
+    font-size: 80px;
+    transform: translateX(-50%) rotate(90deg);
+    z-index:9999;
+    color: var(--cor-primaria);
+    animation: pulando 2s alternate infinite;
 }
 
-section{
+
+main {
+    background-color: var(--cor-secundaria);
+}
+
+section {
     height: 100vh;
     width: 100%;
-    
 }
-.linha{
+
+.linha {
     border-bottom: 3px solid var(--cor-secundaria);
+}
+@keyframes pulando{
+    0%{
+        transform: translateX(-50%) rotate(90deg) scale(1);
+    }
+    100%{
+        transform: translateX(-50%) rotate(90deg) scale(1.3);
+        color: var(--cor-secundaria);
+    }
+
 }

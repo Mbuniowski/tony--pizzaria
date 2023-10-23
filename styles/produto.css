@@ -1,4 +1,4 @@
-.produto{
+.produto {
     position: relative;
 }
 
@@ -13,15 +13,16 @@
     background-color: var(--cor-sombra);
     font-size: 0.8rem;
     color: var(--cor-branco);
-    padding-left: 12px;
+    padding-left: 12px ;
     padding-right: 12px;
-    border-radius: 0px 0px 12px 12px ;
+    border-radius: 0px 0px 12px 12px;
     transition: 1s;
     opacity: 0;
 }
 .produto:hover .info{
-    opacity: 1;
+    opacity: 1 ;
 }
+
 .produto .add{
     position: absolute;
     top:-12px;
@@ -29,17 +30,17 @@
     opacity: 0;
     transition: 1s;
 }
+
 .produto:hover .add{
     opacity: 1;
 }
 
 .produto .info-texto{
     width: 140px;
-
 }
+
 .produto .info-preco{
     background-color: var(--cor-primaria);
     padding: 4px 8px 4px 8px;
     border-radius: 6px;
-    
 }
