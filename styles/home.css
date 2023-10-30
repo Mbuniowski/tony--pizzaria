@@ -44,4 +44,25 @@
     padding-left: 80px;
     padding-right: 80px;
 }
+/* TABLET */
+@media (max-width: 768px) {
+    .home{
+        background-image: url(../img/background-tablet.png);
+        background-position: top left;
+    }
+    .conteudo-container h2{
+        font-size: 3rem;
+}
+}
+.conteudo-container .texto{
+    width: 346px;
+    height: 520px;
+}
+.produto:nth-child(3){
+    display: none;
+}
+.produto:nth-child(4){
+    display: none;
+}
+
 

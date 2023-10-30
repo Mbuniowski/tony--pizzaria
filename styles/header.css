@@ -16,7 +16,11 @@ header .logo-container{
     font-size: 24px;
     color: var(--cor-primaria);
 }
-
+.menu-hamburguer{
+    display: none;
+    color: var(--cor-secundaria);
+    font-size: 32px;
+}
 header .menu ul{
     height: 100%;
     display: flex;
@@ -57,4 +61,11 @@ header .botao{
     gap: 8px;
     color: var(--cor-primaria);
     font-weight: 600;
+}
+/* TABLET */
+@media (max-width:768px) {
+
+header .menu{
+display: none;
+}
 }
