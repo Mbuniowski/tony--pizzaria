@@ -56,24 +56,29 @@
 @media (max-width:768px) {
     .servicos-conteudo {
         flex-wrap: wrap;
-
     }
 
     .servico {
+        height: 520px;
         width: 300px;
-        gap: 32px;
-
-
+        gap: 2px;
+    }
+    .servico h4{
+        font-size: 2.0rem;
     }
 
     .deliveries {
-        margin-top: 100px;
-        gap: 32px;
-        height: 300px;
-        width: 500px;
-        flex-direction: column;
-        justify-content: center;
-        gap: 5px;
+        margin-top: 50px;
+        gap: 20px;
+        height: 320px;
+        width: 660px;
+
+        /* altura= height */
+        /* largura= width */
+        /* espaço entre as coisas = gap */
+    }
+    
+
 
     }
 }
