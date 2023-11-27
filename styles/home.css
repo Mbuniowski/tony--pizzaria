@@ -66,11 +66,12 @@
         background-position: top left;
     }
 
-     /* Texto principal Nao e so uma pizza ... */
-     .conteudo-container .texto {
+    /* Texto principal Nao e so uma pizza ... */
+    .conteudo-container .texto {
         width: 200px;
-        
+
     }
+
     .conteudo-container h2 {
         font-size: 3rem;
     }
@@ -90,9 +91,9 @@
         display: flex;
     }
 
-   .destaque-container{
-    margin-bottom: 60px;
-   }
+    .destaque-container {
+        margin-bottom: 60px;
+    }
 
     /* imagens das pizzas (sabores)para deixar em oculto */
     .produto:nth-child(3) {
@@ -102,5 +103,41 @@
     .produto:nth-child(4) {
         display: none;
     }
-    
+
+}
+
+/* Mobile */
+@media (max-width:480px) {
+
+
+    .conteudo-container .pizza-menor {
+        display: none;
+
+    }
+
+    .conteudo-container h2 {
+
+        font-size: 2rem;
+
+    }
+
+    .conteudo-container {
+        margin-top: 150px;
+        margin-right: 200px;
+
+        height: 30px;
+        width: 200px;
+    }
+
+    .produto:nth-child(2) {
+        display: none;
+
+    }
+
+    .destaque-container {
+        display: flex;
+        align-items: center;
+        padding: 60px;
+
+    }
 }

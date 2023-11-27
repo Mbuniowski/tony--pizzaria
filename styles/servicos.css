@@ -52,7 +52,7 @@
     text-align: center;
     text-shadow: 2px 2px 8px var(--cor-sombra);
 }
-
+/* tablet */
 @media (max-width:768px) {
     .servicos-conteudo {
         flex-wrap: wrap;
@@ -79,6 +79,15 @@
     }
     
 
+    /* Mobile */
+@media (max-width:480px) {
+   
+    .servico-texto{
+        display: none;
+ }
+ .servicos-conteudo{
 
+    width: 50px;
+ }
     }
 }
