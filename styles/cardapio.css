@@ -112,6 +112,10 @@
 /* Mobile */
 @media (max-width:480px) {
 
+    .cardapio{
+        height: 100%;
+        
+    }
 .cardapio-titulo h3{
     font-size: 1.5rem;
 }

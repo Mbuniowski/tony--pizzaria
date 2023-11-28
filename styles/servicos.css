@@ -52,6 +52,7 @@
     text-align: center;
     text-shadow: 2px 2px 8px var(--cor-sombra);
 }
+
 /* tablet */
 @media (max-width:768px) {
     .servicos-conteudo {
@@ -63,7 +64,8 @@
         width: 300px;
         gap: 2px;
     }
-    .servico h4{
+
+    .servico h4 {
         font-size: 2.0rem;
     }
 
@@ -77,17 +79,39 @@
         /* largura= width */
         /* espaço entre as coisas = gap */
     }
-    
 
-    /* Mobile */
+}
+
+/* Mobile */
 @media (max-width:480px) {
-   
-    .servico-texto{
-        display: none;
- }
- .servicos-conteudo{
 
-    width: 50px;
- }
+.servicos{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+.servicos-conteudo{
+    gap:16px
+}
+    .servico-texto {
+        display: none;
+    }
+
+    .fast-food {
+        height: 200px;
+        width: 193px;
+        gap: 20px;
+    }
+
+    .drive-thru {
+        height: 200px;
+        width: 193px;
+    }
+
+    .deliveries {
+        height: 200px;
+        width: 193px;
+        margin-top: 0px;
     }
 }
+

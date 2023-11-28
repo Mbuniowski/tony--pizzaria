@@ -122,3 +122,36 @@ footer{
     padding-top: 50px;
     }
 }
+
+/* Mobile */
+@media (max-width:480px) {
+
+    .contato-logo{
+        display: none;
+    }
+    .contatos-container{
+        display: grid;
+        grid-column-end: span 3;
+        grid-template: 
+        "contatos contatos contatos" 100px
+        "links sociais b" 140px 
+        " links sociais c" 140px/ 5fr 7fr 1fr;
+        place-items: center;
+        padding: 6px 32px 24px 32px;
+        gap:16px;
+    }
+    .contatos{
+        grid-area: contatos;
+    }
+    .contato-links{
+        grid-area: links;
+    }
+    .contato-sociais{
+        grid-area: sociais;
+    }
+    .autor-container{
+        padding: 8px 12px 8px 12px;
+    }
+    }
+
+
